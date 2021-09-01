@@ -8,7 +8,7 @@ const monthDays = document.querySelector('.days');
 
 const lastDay = new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate();
 
-const firstDayIndex = date.getDay
+const firstDayIndex = date.getDay;
 
 const months = [
     "January",
@@ -31,7 +31,9 @@ document.querySelector('.date p').innerHTML = date.toDateString();
 
 let days = "";
 
-for(let x = )
+for(let x = firstDayIndex; x > 0; x--){
+    
+}
 
 for(let i = 1; i <= lastDay; i++){
     days += `<div>${i}</div>`
