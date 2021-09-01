@@ -36,10 +36,9 @@ document.querySelector('.date p').innerHTML = date.toDateString();
 let days = "";
 
 for(let x = firstDayIndex; x > 0; x--){
-    days += `<div class="prev-date">${}</div>`
+    days += `<div class="prev-date">${prevLastDay-x}</div>`;
 }
 
 for(let i = 1; i <= lastDay; i++){
     days += `<div>${i}</div>`
-    monthDays.innerHTML = days;
-}
+}monthDays.innerHTML = days;
