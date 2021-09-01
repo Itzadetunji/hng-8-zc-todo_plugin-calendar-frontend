@@ -23,7 +23,7 @@ html{
     width: 45rem;
     height: 52rem;
     background-color: #222227;
-    box-shadow: 0.5rem 3rem rgba(0,0,0,0.4);
+    box-shadow: 0.05rem 3rem rgba(0,0,0,0.4);
 }
 
 .month{
