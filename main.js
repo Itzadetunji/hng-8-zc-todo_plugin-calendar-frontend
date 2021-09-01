@@ -15,4 +15,5 @@ const months = [
     "December",
 ];
 
-document.querySelector('.date h1').innerHTML = months[4]
+document.querySelector('.date h1').innerHTML = months[date.getMonth()];
+document.querySelector('.date p').innerHTML = date.toDateString();
