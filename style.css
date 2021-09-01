@@ -70,7 +70,7 @@ html{
     width: calc(44.2rem/7);
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     text-shadow: 0.3rem 0.5rem rgba(0,0,0,0.5);
 }
 
@@ -84,4 +84,9 @@ html{
 .days div{
     font-size: 1.4rem;
     margin: 0.3rem;
+    width: calc(40.2rem/7);
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
