@@ -54,3 +54,11 @@ html{
 .month p{
     font-size: 1.6rem;
 }
+
+.weekdays{
+    width: 100%;
+    height: 5rem;
+    padding: 0.04rem;
+    display: flex;
+    align-items: center;
+}
